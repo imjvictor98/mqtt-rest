@@ -1,6 +1,6 @@
 const express = require('express')
 const bodyParser= require('body-parser')
-const mqttHandler = require('./MqttHandler')
+const mqttHandler = require('./mqttHandler')
 
 var app = express()
 
