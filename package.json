@@ -1,0 +1,16 @@
+{
+  "name": "mqtt-rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mqtt": "^4.1.0"
+  },
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}
